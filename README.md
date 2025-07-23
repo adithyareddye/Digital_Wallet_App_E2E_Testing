@@ -93,7 +93,10 @@ test.step() used for structured, readable test execution
 No hardcoded paths – everything works via process.cwd()
 
 ## 🖼️ Sample Test Result Screenshot
-![Test Results Screenshot](https://raw.githubusercontent.com/adithyareddye/Digital_Wallet_App_E2E_Testing/master/test-results/test-results-screenshot.png)
+## 🖼️ Sample Test Result Screenshot
+
+![Test Results Screenshot](test-results/test-results-screenshot.png)
+
 
 
 
