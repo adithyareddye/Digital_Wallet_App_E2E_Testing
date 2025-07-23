@@ -14,6 +14,7 @@ Features covered by tests:
 ## 🗂️ Project Structure
 
 Vialet_Project/
+
 ├── tests/ # Test cases (e.g. Retry_E2E.spec.ts)
 
 ├── pages/ # Page Objects (RegistrationPage, KYCVerificationPage)
