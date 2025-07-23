@@ -33,19 +33,17 @@ Vialet_Project/
 ### 1. Install dependencies
 
 ```bash
-npm install
+1.npm install
 
 2. Add test documents
 Place the following files in the testdata/ folder:
 
-valid_document.png
-
-wrong_document.png
+valid_document.png, wrong_document.png
 
 Ensure each file is under 5MB and in JPEG, PNG, or PDF format.
 
 3. Start the KYC Web App (External Dependency)
-Clone and run the mock KYC web app required for testing:
+Clone and run the mock KYC web app required for testing:(https://github.com/vialeteu/kyc-mock-app)
 git clone https://github.com/<your-org-or-user>/kyc-mock-app.git
 
 In one terminal:
@@ -60,7 +58,6 @@ npm start
 
 
 Backend runs at http://localhost:3000
-
 Frontend runs at http://localhost:3001
 
 4. Run tests
@@ -70,32 +67,24 @@ npx playwright test
 npx playwright show-report
 
  Notes
-KYC verification takes 2–20 seconds (mocked delay)
-
-Valid files include "valid" in their filename (mock logic)
+KYC verification takes 2–20 seconds 
+Valid files include "valid" in their filename
 
 File paths in tests are handled using:
-
 path.resolve(process.cwd(), 'testdata', fileName)
-
 ✅ This ensures compatibility across systems (Windows, macOS, Linux)
 
 🤝 Used By
 Product Teams A & B
-
 Platform Engineering Team
-
 QA for end-to-end flow coverage with external sandbox APIs
 
 📸 Sample Test Report
 
 ✅ Best Practices Followed
 Page Object Model for cleaner test code
-
 All locators defined inside pages/ folder
-
 test.step() used for structured, readable test execution
-
 No hardcoded paths – everything works via process.cwd()
 
 ## 🖼️ Sample Test Result Screenshot
