@@ -15,10 +15,15 @@ Features covered by tests:
 
 Vialet_Project/
 ├── tests/ # Test cases (e.g. Retry_E2E.spec.ts)
+
 ├── pages/ # Page Objects (RegistrationPage, KYCVerificationPage)
+
 ├── utils/ # Constants and data generation
+
 ├── testdata/ # KYC sample documents
+
 ├── playwright.config.ts
+
 └── README.md
 
 
@@ -93,8 +98,6 @@ test.step() used for structured, readable test execution
 No hardcoded paths – everything works via process.cwd()
 
 ## 🖼️ Sample Test Result Screenshot
-## 🖼️ Sample Test Result Screenshot
-
 ![Test Results Screenshot](test-results/test-results-screenshot.png)
 
 
