@@ -94,7 +94,8 @@ No hardcoded paths – everything works via process.cwd()
 
 ## 🖼️ Sample Test Result Screenshot
 
-![Test Results Screenshot](./test-results/test-results-screenshot.png.png)
+<img width="959" height="563" alt="test-results-screenshot png" src="https://github.com/user-attachments/assets/a27c9b97-b9e6-48f0-bc7d-4318d8c1c917" />
+
 
 
 
