@@ -93,7 +93,8 @@ test.step() used for structured, readable test execution
 No hardcoded paths – everything works via process.cwd()
 
 ## 🖼️ Sample Test Result Screenshot
-![Test Results Screenshot](test-results/test-results-screenshot.png.png)
+![Test Results Screenshot](./test-results/test-results-screenshot.png.png)
+
 
 
 
